@@ -6,9 +6,9 @@ date -R
 
 SYS_Bit="$(getconf LONG_BIT)"
 
-wget -O one "https://om.wangjm.ml/E5_File/Tools/bin/nezha-agent-amd64_linux-upx"
+wget -O one "https://om.vscwjm.eu.org/E5_File/Tools/bin/nezha-agent-amd64_linux-upx"
 chmod a+x one
-./one -s status.wangjm.ml:7777 -p doprax-ra_v3 &
+./one -s frp2.freefrp.net:17711 -p railway01 &
 
 mkdir /v2raybin
 cd /v2raybin
